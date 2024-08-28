@@ -1,7 +1,7 @@
 {
   "name": "react-hello-webapp",
   "engines": {
-    "node": "16.x"
+    "node": "20.x"
   },
   "version": "1.0.1",
   "description": "",
@@ -73,6 +73,9 @@
     ]
   },
   "dependencies": {
+    "babel-helper-function-name": "^6.24.1",
+    "babel-template": "^6.26.0",
+    "babel-traverse": "^6.26.0",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
